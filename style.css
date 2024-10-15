@@ -2,4 +2,100 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav-bar {
+  background-color: #1f2937;
+  display: flex;
+  color: #fff;
+  justify-content: space-around;
+  align-items: center;
+}
+ul {
+  display: flex;
+  list-style-type: none;
+  gap: 25px;
+}
+ul li {
+  cursor: pointer;
+  box-shadow: hsl(215, 25%, 20%), #fff;
+}
+/* =================================== */
+.header-container {
+  background-color: #1f2937;
+  width: 100vw;
+  height: 320px;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  justify-content: space-around;
+}
+.initial-text {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.signup-btn {
+  background-color: #3882f6;
+  width: 100px;
+  height: 30px;
+  margin-left: 100px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+.intial-image {
+  text-align: center;
+  background-color: #d3d3d3;
+  height: 70%;
+  width: 50%;
+  margin-right: 30px;
+}
+/* ======================================= */
+.random-info-section {
+  margin-top: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+  margin-bottom: 50px;
+}
+.main-div {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+}
+.info-div {
+  width: 100px;
+  height: 100px;
+  border: 4px solid #3882f6;
+  border-radius: 8px;
+}
+/* ============================================ */
+.quote-section {
+  background-color: #d3d3d3;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row-reverse;
+  padding: 100px;
+}
+/* ====================================== */
+.contact-section {
+  background-color: white;
+  margin: 50px 150px;
+  text-align: left;
+  border-radius: 7px;
+  border: 3px solid #3c89d0;
+  padding: 15px 0px 15px 15px;
+  background-color: #3c89d0;
+  color: white;
+  font-size: 17px;
+  display: flex;
+  justify-content: space-evenly;
+}
+footer {
+  background-color: #1f2937;
+  text-align: center;
+  height: 30px;
+  margin: auto auto;
 }
